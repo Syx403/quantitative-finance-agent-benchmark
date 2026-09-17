@@ -1,0 +1,50 @@
+{
+  "rubric_id": "S3_cross_run_reproducibility",
+  "version": "v1.3.0",
+  "dimension": "S3",
+  "name": "Cross-run reproducibility",
+  "definition": "Evaluates whether three repeated live conversations under identical conditions preserve similar student behavior.",
+  "unit": "three repeated live conversations",
+  "judge_context_inputs": [
+    "persona description",
+    "familiar concepts",
+    "unfamiliar concepts",
+    "emotional profile (key + expanded description)",
+    "behavioral rules",
+    "persona-specific expectations (question/confusion/recovery/confidence style)",
+    "task description",
+    "three generated-student transcript sets (same task/persona/model, different repeats)"
+  ],
+  "included_turn_source": "student_model",
+  "score_fields": [
+    "topic_trajectory",
+    "knowledge_display",
+    "emotional_consistency",
+    "question_patterns",
+    "overall_reproducibility"
+  ],
+  "required_failure_output_fields": [
+    "failure_types",
+    "dominant_failure_type",
+    "failure_evidence"
+  ],
+  "score_scales": {
+    "1": "Severe unreliability. Repeated runs imply different personas, incompatible knowledge levels, or contradictory emotional/behavioral profiles.",
+    "2": "Weak reproducibility. No Score 1 failure, but at least two runs materially differ in knowledge display, emotional tone, question pattern, or learning trajectory.",
+    "3": "Acceptable reproducibility. The same broad persona is recoverable across runs; topic order, wording, or depth may vary noticeably.",
+    "4": "Strong reproducibility. All runs preserve the same knowledge boundary, emotional profile, and question style with only natural variation.",
+    "5": "Excellent reproducibility. All runs show highly stable persona behavior across knowledge boundary, emotional tone, question pattern, and learning arc."
+  },
+  "failure_taxonomy_fields": [
+    "knowledge_leak",
+    "under_competence",
+    "emotional_mismatch",
+    "generic_student_behavior",
+    "co_teacher_drift",
+    "task_forgetting",
+    "persona_contract_contradiction"
+  ],
+  "aggregation_formula": "mean(overall_reproducibility), std(overall_reproducibility), high_score_ratio=count(overall_reproducibility >= 4)/n by model and tutor_temperature",
+  "prompt_template": "rubrics/prompts/S3_cross_run_reproducibility.txt",
+  "prompt_template_path": "prompts/S3_cross_run_reproducibility.txt"
+}

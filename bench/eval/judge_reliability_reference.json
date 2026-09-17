@@ -1,0 +1,65 @@
+{
+  "version": "judge_reliability_reference_v1",
+  "status": "primary_gate_pass",
+  "validation_run_id": "jv_20260429_stage3_combined",
+  "reference_judge_model": "anthropic/claude-sonnet-4.6",
+  "prompt_variants": [
+    "baseline",
+    "role_blocks",
+    "markdown_transcript"
+  ],
+  "rubric_registry_version": "judge_rubric_registry_v3",
+  "judge_prompt_template_version": "conv_geval_score_prompt_v1",
+  "judge_output_schema_version": "conv_geval_score_json_v1",
+  "artifacts": {
+    "judge_runs_path": "bench/experiments/judge_validation/results/judge_runs.json",
+    "stats_path": "bench/experiments/judge_validation/results/judge_validation_stats.json",
+    "report_markdown_path": "bench/experiments/judge_validation/results/judge_reliability_report.md",
+    "report_html_path": "bench/experiments/judge_validation/results/judge_reliability_report.html"
+  },
+  "metrics": {
+    "corpus_items": 36,
+    "records": 408,
+    "successful_records": 408,
+    "stability_groups": 136,
+    "prompt_variant_groups": 32,
+    "adversarial_pairs": 8,
+    "comparable_adversarial_pairs": 8,
+    "comparable_adversarial_model_pairs": 16,
+    "sensitivity_cases": 6,
+    "comparable_sensitivity_cases": 6,
+    "stage3_primary_gate_status": "pass",
+    "stage3_primary_gate_failures": null,
+    "primary_adversarial_ranking_target": 0.85,
+    "primary_multi_judge_within_one_target": 0.85,
+    "adversarial_ranking_accuracy": 1.0,
+    "multi_judge_status": "pass",
+    "multi_judge_within_one": 0.9444,
+    "multi_judge_comparable_groups": 36,
+    "multi_judge_comparisons": 36,
+    "multi_judge_models": [
+      "anthropic/claude-sonnet-4.6",
+      "openai/gpt-5.4"
+    ],
+    "missing_adversarial_pairs": 0,
+    "missing_adversarial_model_pairs": 0,
+    "mean_absolute_score_delta": 0.1471,
+    "within_one_score_rate": 0.9877,
+    "pass_fail_flip_rate": 0.0441,
+    "prompt_format_mean_variant_delta": 0.2014,
+    "prompt_format_within_one_rate": 0.9792,
+    "prompt_format_pass_fail_flip_rate": 0.0625,
+    "adversarial_ranking_pass_rate": 1.0,
+    "sensitivity_pass_rate": 1.0,
+    "evidence_coverage_rate": 1.0,
+    "reason_coverage_rate": 1.0,
+    "mean_pairwise_text_jaccard": 0.6013,
+    "large_disagreement_count": 3
+  },
+  "residual_risks": [
+    "Evidence consistency uses lexical overlap as a lightweight proxy for explanation stability.",
+    "Human absolute-score agreement is reported as a diagnostic appendix for calibration review.",
+    "Multi-judge agreement uses the shared baseline prompt variant across anthropic/claude-sonnet-4.6 and openai/gpt-5.4; full prompt-variant cross-model replication is an optional diagnostic expansion.",
+    "One long gpt-5.2 excerpt (jv_real_i04_multitf_gpt52_excerpt) was removed from the v3 corpus because the judge returned python code instead of a JSON score even after truncation; longer real-code-heavy tutor excerpts should be re-validated before adding them to the gated corpus."
+  ]
+}

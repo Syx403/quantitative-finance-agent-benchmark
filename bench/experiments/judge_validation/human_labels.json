@@ -1,0 +1,413 @@
+{
+  "description": "Original numeric human ratings with matching keys only.",
+  "labels": [
+    {
+      "sample_id": "jv_review_001",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_002",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_003",
+      "rubric_id": "code_correctness.v1",
+      "dimension": "result_judge",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_004",
+      "rubric_id": "code_correctness.v1",
+      "dimension": "result_judge",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_005",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_006",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_007",
+      "rubric_id": "tool_workspace_use.v1",
+      "dimension": "result_judge",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_008",
+      "rubric_id": "tool_workspace_use.v1",
+      "dimension": "result_judge",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_009",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_010",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_011",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_012",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_013",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_014",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_001",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_002",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_003",
+      "rubric_id": "code_correctness.v1",
+      "dimension": "result_judge",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_004",
+      "rubric_id": "code_correctness.v1",
+      "dimension": "result_judge",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_005",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_006",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_007",
+      "rubric_id": "tool_workspace_use.v1",
+      "dimension": "result_judge",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_008",
+      "rubric_id": "tool_workspace_use.v1",
+      "dimension": "result_judge",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_009",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_010",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_011",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_012",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_013",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_014",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_015",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_016",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_017",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_018",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_019",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_020",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_021",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_022",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_023",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_024",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_025",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_026",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_027",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_028",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_029",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_030",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_031",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_032",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_033",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_034",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_024",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_030",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_018",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 2
+    },
+    {
+      "sample_id": "jv_review_015",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_026",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_033",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_022",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_027",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 5
+    },
+    {
+      "sample_id": "jv_review_019",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_029",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 2
+    },
+    {
+      "sample_id": "jv_review_017",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_032",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 2
+    },
+    {
+      "sample_id": "jv_review_028",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_023",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D2_code_adaptation",
+      "human_score": 4
+    },
+    {
+      "sample_id": "jv_review_016",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_021",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 2
+    },
+    {
+      "sample_id": "jv_review_034",
+      "rubric_id": "safety_boundaries.v1",
+      "dimension": "D6_safety_boundaries",
+      "human_score": 1
+    },
+    {
+      "sample_id": "jv_review_025",
+      "rubric_id": "student_adaptation.v1",
+      "dimension": "D1_finance_adaptation",
+      "human_score": 2
+    },
+    {
+      "sample_id": "jv_review_020",
+      "rubric_id": "teaching_quality.v1",
+      "dimension": "D3_pedagogical_method",
+      "human_score": 3
+    },
+    {
+      "sample_id": "jv_review_031",
+      "rubric_id": "quant_correctness.v1",
+      "dimension": "D4_instructional_accuracy",
+      "human_score": 3
+    }
+  ]
+}

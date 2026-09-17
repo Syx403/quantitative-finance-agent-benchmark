@@ -1,0 +1,39 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and editors
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.idea/
+.vscode/
+
+# Generated data, execution records, and local caches
+bench/data/
+bench/results/
+bench/experiments/**/results/
+bench/experiments/**/report/
+results/
+logs/
+*.log
+.deepeval/
+.cache/
+
+
+# Compact calibration evidence used by a regression test
+!bench/experiments/judge_validation/results/
+!bench/experiments/judge_validation/results/judge_runs.json

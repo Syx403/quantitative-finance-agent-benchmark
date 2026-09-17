@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuantTutorBench Isolated UI</title>
+  <link rel="stylesheet" href="/static/css/styles.css?v=20260506a">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+</head>
+<body>
+  <nav id="nav">
+    <div class="nav-brand">
+      <a href="#/flow-demo" class="nav-logo">QuantTutorBench</a>
+      <span class="nav-subtitle">Isolated UI</span>
+    </div>
+    <div class="nav-links">
+      <a href="#/flow-demo" class="nav-link" data-route="flow">Session Flow</a>
+      <a href="#/my-run" class="nav-link" data-route="my-run">My Run</a>
+      <a href="#/review" class="nav-link" data-route="review">Human Review</a>
+      <a href="#/tasks" class="nav-link" data-route="tasks">Task Catalog</a>
+    </div>
+    <div id="nav-user" class="nav-user"></div>
+  </nav>
+
+  <main id="app"></main>
+
+  <script src="/static/js/render.js?v=20260421a"></script>
+  <script src="/static/js/chat.js?v=20260421a"></script>
+  <script src="/static/js/tools.js?v=20260421a"></script>
+  <script src="/static/js/run-agent.js?v=20260505a"></script>
+  <script src="/static/js/flow-demo.js?v=20260501g"></script>
+  <script src="/static/js/app.js?v=20260506a"></script>
+</body>
+</html>

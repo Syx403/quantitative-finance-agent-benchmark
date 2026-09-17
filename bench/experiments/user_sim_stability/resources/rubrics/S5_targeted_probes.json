@@ -1,0 +1,44 @@
+{
+  "rubric_id": "S5_targeted_probes",
+  "version": "v1.3.0",
+  "dimension": "S5",
+  "name": "Targeted persona probe",
+  "definition": "Evaluates one targeted probe response against a specific persona contract facet. Each probe ships with a per-persona expected_signals list of indirect surface markers the judge uses to anchor facet_fit.",
+  "unit": "single generated probe response",
+  "judge_context_inputs": [
+    "persona contract (full contract including description, familiar/unfamiliar concepts, emotional profile with expanded description, behavioral rules, persona-specific expectations, failure modes)",
+    "probe facet",
+    "probe prompt",
+    "generated student response",
+    "expected persona-specific indirect signals for this probe"
+  ],
+  "score_fields": [
+    "contract_fit",
+    "facet_fit",
+    "overall_probe_pass"
+  ],
+  "required_failure_output_fields": [
+    "failure_types",
+    "dominant_failure_type",
+    "failure_evidence"
+  ],
+  "score_scales": {
+    "1": "Severe probe failure. The response contradicts the persona contract or target facet through severe knowledge leak, under-competence, generic behavior, or co-teacher drift.",
+    "2": "Weak probe fit. No Score 1 failure, but at least two moderate issues weaken the contract fit, facet fit, emotional profile, or question style.",
+    "3": "Acceptable probe fit. The response respects the main persona boundaries and addresses the facet, but the signal may be shallow or somewhat generic.",
+    "4": "Strong probe fit. The response clearly expresses the targeted facet and persona-specific knowledge/emotional/behavioral pattern with only minor limitations.",
+    "5": "Excellent probe fit. The response is highly specific to the persona contract and targeted facet, with no boundary errors and no generic student behavior."
+  },
+  "failure_taxonomy_fields": [
+    "knowledge_leak",
+    "under_competence",
+    "emotional_mismatch",
+    "generic_student_behavior",
+    "co_teacher_drift",
+    "task_forgetting",
+    "persona_contract_contradiction"
+  ],
+  "aggregation_formula": "probe pass rate by persona, facet, task pressure, and model",
+  "prompt_template": "rubrics/prompts/S5_targeted_probes.txt",
+  "prompt_template_path": "prompts/S5_targeted_probes.txt"
+}
