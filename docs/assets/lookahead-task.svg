@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">One task, inspectable evidence</title><desc id="desc">L1_DBG_01: diagnose and repair look-ahead bias in a trading-strategy fixture. The assignment: Inspect temporal alignment; Explain the leakage; Repair the strategy Required artifacts: diagnosis.md; lookahead_fixed.py; comparison.json The evaluation: Artifact / numeric checks; Tool / process evidence; QR + QP, with score coverage Task-contract illustration, not a recorded model run. Structural checks have documented limits.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#8ce4c2" stroke-width="1.3"/></marker></defs>
+<rect width="1200" height="640" rx="24" fill="#0c1119"/>
+<path d="M48 56H100" stroke="#8ce4c2" stroke-width="4"/>
+<text x="116" y="64" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="3">EWAN LAB / PROJECT NOTES</text>
+<text x="48" y="135" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="40">One task, inspectable evidence</text>
+<text x="48" y="181" fill="#abb8c9" font-family="Arial,Helvetica,sans-serif" font-size="23">L1_DBG_01: diagnose and repair look-ahead bias in a trading-strategy fixture.</text>
+<rect x="48" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="74" y="281" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22">01</text>
+<text x="74" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">The assignment</text>
+<text x="74" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Inspect temporal alignment</text>
+<text x="74" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Explain the leakage</text>
+<text x="74" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Repair the strategy</text>
+<path d="M395 364H420" stroke="#8ce4c2" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="432" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="458" y="281" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22">02</text>
+<text x="458" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">Required artifacts</text>
+<text x="458" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">diagnosis.md</text>
+<text x="458" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">lookahead_fixed.py</text>
+<text x="458" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">comparison.json</text>
+<path d="M779 364H804" stroke="#8ce4c2" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="816" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="842" y="281" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22">03</text>
+<text x="842" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">The evaluation</text>
+<text x="842" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Artifact / numeric checks</text>
+<text x="842" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Tool / process evidence</text>
+<text x="842" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">QR + QP, with score coverage</text>
+<path d="M48 543H1152" stroke="#324055"/><text x="48" y="585" fill="#a4b2c5" font-family="Arial,Helvetica,sans-serif" font-size="21">Task-contract illustration, not a recorded model run. Structural checks have documented limits.</text></svg>

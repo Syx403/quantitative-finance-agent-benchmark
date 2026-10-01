@@ -14,3 +14,11 @@ The simulator study uses six fixed task fixtures recovered from the pre-migratio
 - Large historical market datasets and full experiment transcripts are not redistributed in this repository.
 
 This notice records attribution and does not replace upstream licenses or grant additional rights to third-party material.
+
+## Publication and reuse
+
+This edition is published for inspection with its existing attribution. No
+project-wide open-source license is supplied. Availability on GitHub does not
+relicense the original collaborative work, the task-source material, or external
+dependencies. Obtain the relevant permissions before reuse beyond the rights
+already granted by their applicable terms.

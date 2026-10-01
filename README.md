@@ -6,6 +6,8 @@
 
 An execution and evaluation environment for quantitative-finance agents, with sandboxed tools, multi-turn tasks, and evidence-based scoring.
 
+![The 142-task library: 100 knowledge tasks, 23 execution tasks, and 19 multi-turn tasks.](docs/assets/task-library.svg)
+
 [![Tests](https://github.com/Syx403/quantitative-finance-agent-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/Syx403/quantitative-finance-agent-benchmark/actions/workflows/tests.yml)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Interfaces](https://img.shields.io/badge/Interfaces-MCP%20%2B%20REST-5266D6)
@@ -49,6 +51,19 @@ flowchart LR
 ```
 
 The agent chooses its next action. The server enforces the environment and access boundaries. Evaluation runs separately from the agent's task tools.
+
+## One task, from diagnosis to evidence
+
+An example task asks an agent to repair **look-ahead bias** in a strategy. It must
+explain the temporal-alignment problem, produce corrected Python code, and write a
+comparison of original and corrected metrics. The evaluator inspects the required
+artifacts alongside execution and process evidence.
+
+![Look-ahead-bias task: diagnose the problem, write three required artifacts, evaluate result and process evidence.](docs/assets/lookahead-task.svg)
+
+This figure illustrates an existing **task contract**, not a new model run or a
+performance claim. [Read the annotated case](docs/lookahead-case.md) for the actual
+output contract, check boundaries, and code entry points.
 
 ## Quick start
 
@@ -117,3 +132,15 @@ Docker mode provides container isolation. Local execution mode does not provide 
 ## Acknowledgments
 
 Originally developed collaboratively at Varsity Tech. This curated repository is maintained by [Syx403](https://github.com/Syx403) and preserves contributions from Rick Chan and the original team. See [NOTICE](NOTICE.md) for source provenance and third-party attribution.
+
+This edition makes the retained implementation, task catalog, offline checks, and
+documentation available together. The current Git history is a curated snapshot;
+it should not be read as sole authorship of the original system. Module-level
+personal contribution claims are intentionally not inferred from that import.
+
+## Reuse and licensing
+
+The repository is available for inspection. A project-wide open-source license has
+not been selected; public visibility is not a blanket license to redistribute
+third-party task material or dependencies. See [NOTICE](NOTICE.md) for the retained
+source and data boundaries.

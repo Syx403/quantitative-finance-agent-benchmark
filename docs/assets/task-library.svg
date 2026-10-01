@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">142 tasks. Three levels of agent work.</title><desc id="desc">A task library for quantitative-finance knowledge, execution, and interaction. L0 / 100 tasks: Financial knowledge; Data interpretation; Multi-step reasoning L1 / 23 tasks: Implement and debug; Inspect data and artifacts; Check executable results L2 / 19 tasks: Multi-turn interaction; Diagnosis and adversaries; End-to-end task workflows Library composition, not a model leaderboard. The default Run catalog serves the 19 L2 tasks.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#8ce4c2" stroke-width="1.3"/></marker></defs>
+<rect width="1200" height="640" rx="24" fill="#0c1119"/>
+<path d="M48 56H100" stroke="#8ce4c2" stroke-width="4"/>
+<text x="116" y="64" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="3">EWAN LAB / PROJECT NOTES</text>
+<text x="48" y="135" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="40">142 tasks. Three levels of agent work.</text>
+<text x="48" y="181" fill="#abb8c9" font-family="Arial,Helvetica,sans-serif" font-size="23">A task library for quantitative-finance knowledge, execution, and interaction.</text>
+<rect x="48" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="74" y="281" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22">01</text>
+<text x="74" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">L0 / 100 tasks</text>
+<text x="74" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Financial knowledge</text>
+<text x="74" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Data interpretation</text>
+<text x="74" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Multi-step reasoning</text>
+<path d="M395 364H420" stroke="#8ce4c2" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="432" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="458" y="281" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22">02</text>
+<text x="458" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">L1 / 23 tasks</text>
+<text x="458" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Implement and debug</text>
+<text x="458" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Inspect data and artifacts</text>
+<text x="458" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Check executable results</text>
+<path d="M779 364H804" stroke="#8ce4c2" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="816" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="842" y="281" fill="#8ce4c2" font-family="Arial,Helvetica,sans-serif" font-size="22">03</text>
+<text x="842" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">L2 / 19 tasks</text>
+<text x="842" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Multi-turn interaction</text>
+<text x="842" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Diagnosis and adversaries</text>
+<text x="842" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">End-to-end task workflows</text>
+<path d="M48 543H1152" stroke="#324055"/><text x="48" y="585" fill="#a4b2c5" font-family="Arial,Helvetica,sans-serif" font-size="21">Library composition, not a model leaderboard. The default Run catalog serves the 19 L2 tasks.</text></svg>
