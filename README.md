@@ -59,7 +59,7 @@ explain the temporal-alignment problem, produce corrected Python code, and write
 comparison of original and corrected metrics. The evaluator inspects the required
 artifacts alongside execution and process evidence.
 
-![Look-ahead-bias task: diagnose the problem, write three required artifacts, evaluate result and process evidence.](docs/assets/lookahead-task.svg)
+![Look-ahead-bias task: shift the signal by one bar, produce the required artifacts, and evaluate shared evidence through result-quality and process-quality tracks.](docs/assets/lookahead-task.svg)
 
 This figure illustrates an existing **task contract**, not a new model run or a
 performance claim. [Read the annotated case](docs/lookahead-case.md) for the actual
